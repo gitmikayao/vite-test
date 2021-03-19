@@ -1,7 +1,7 @@
 import { common, Test } from '@dvs/common';
 
 const test = new Test();
-const dvs = {
+const dvs ={
     common,
     test
 };
