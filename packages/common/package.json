@@ -2,5 +2,14 @@
   "name": "@dvs/common",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "module": "src/index.ts",
+  "buildOptions": {
+    "name": "common",
+    "formats": [
+      "cjs",
+      "es",
+      "iife"
+    ]
+  }
 }

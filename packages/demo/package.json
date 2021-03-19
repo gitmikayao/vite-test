@@ -2,5 +2,14 @@
   "name": "demo",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "module": "src/index.ts",
+  "buildOptions": {
+    "name": "demo",
+    "formats": [
+      "cjs",
+      "es",
+      "iife"
+    ]
+  }
 }

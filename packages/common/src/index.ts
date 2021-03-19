@@ -1,7 +1,17 @@
 const common = {
-    add: (a: number, b: number)=>{
-        return a+b;
+    add: (a: number, b: number) => {
+        return a + b;
     }
 };
 
-export {common};
+class Test {
+    constructor() {
+
+    }
+
+    public add(a: number, b: number) {
+        return a + b;
+    }
+}
+
+export { common, Test };
